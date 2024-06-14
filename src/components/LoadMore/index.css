@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.container {
+.outside-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;

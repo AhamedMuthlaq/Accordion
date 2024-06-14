@@ -19,6 +19,7 @@ const StarRating = ({ noOfStars = 5 }) => {
 
   return (
     <div
+      className="star-container"
       style={{
         textAlign: "center",
         height: "100vh",

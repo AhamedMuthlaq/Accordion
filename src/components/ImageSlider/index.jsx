@@ -42,7 +42,7 @@ const ImageSlider = ({ url, page = "1", limit = "4" }) => {
   }
 
   return (
-    <div className="container">
+    <div className="slider-container">
       <BsArrowLeftCircleFill
         onClick={handleLeft}
         className="arrow arrow-left"

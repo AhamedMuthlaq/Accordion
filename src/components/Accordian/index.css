@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.container {
+.accordian-container {
   display: flex;
   gap: 1rem;
   flex-flow: column wrap;

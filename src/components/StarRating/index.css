@@ -1,6 +1,6 @@
 .active {
   color: yellow;
 }
-.inactive {
+.start-container .inactive {
   color: #000;
 }

@@ -13,7 +13,7 @@ const App = () => {
   };
 
   return (
-    <div className="container">
+    <div className="accordian-container">
       <div>
         <input
           onChange={() => handleChange()}

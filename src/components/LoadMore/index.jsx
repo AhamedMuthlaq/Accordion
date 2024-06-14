@@ -41,7 +41,7 @@ const LoadMore = () => {
   if (error) return <div>{error}</div>;
 
   return (
-    <div className="container">
+    <div className="outside-container">
       <div className="products-container">
         {products && products.length
           ? products.map((product) => (

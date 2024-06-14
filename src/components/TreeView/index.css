@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-container {
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.treeViewContainer {
+  background-color: #0e0e4e;
+  width: 30%;
+  height: 100vh;
+  padding: 1rem;
+}
+.list {
+  color: aliceblue;
+  width: 100%;
+  padding: 1rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

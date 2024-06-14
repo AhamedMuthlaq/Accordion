@@ -12,10 +12,15 @@ const DataItem = ({
       if (newArr.indexOf(id) !== -1) {
         newArr.splice(newArr.indexOf(id), 1);
       } else {
+        if (id === selected) {
+          setSelected(null);
+          return;
+        }
         newArr.push(id);
       }
       setIdArray(newArr);
     } else {
+      setIdArray([]);
       setSelected(selected === id ? null : id);
     }
   };
