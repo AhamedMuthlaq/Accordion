@@ -8,8 +8,16 @@
 // import QrCode from "./components/QrCode";
 // import ThemeToggle from "./components/ThemeToggle";
 // import ScrollIndicator from "./components/scroll-indicator";
-
-import CustomTab from "./components/CustomTab";
+// import CustomTab from "./components/CustomTab";
+//import ModalPopup from "./components/ModalPopup";
+//import GithubFinder from "./components/GithubFinder";
+// import SearchAuto from "./components/SearchAutoComplete";
+// import TicTacToe from "./components/tic-tac-toe";
+//import FeatureFlags from "./components/FeatureFlags";
+//import FeatureFlagGlobalState from "./components/FeatureFlags/context";
+import Test from "./components/UseFetch";
+//import UseOutsideClick from "./components/UseOutsideClick";
+//import WindowSizeTest from "./components/UseWindowSize";
 
 const App = () => {
   return (
@@ -26,8 +34,18 @@ const App = () => {
       <TreeView menus={menus} />
       <QrCode />
       <ThemeToggle />
-      <ScrollIndicator url={"http://dummyjson.com/products?limit=100"} /> */}
-      <CustomTab />
+      <ScrollIndicator url={"http://dummyjson.com/products?limit=100"} />
+      <CustomTab /> 
+      <ModalPopup />
+      <GithubFinder />
+      <SearchAuto />
+      <TicTacToe />
+      <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState>
+      <UseOutsideClick />
+      <WindowSizeTest />*/}
+      <Test />
     </div>
   );
 };
